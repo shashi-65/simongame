@@ -8,7 +8,7 @@
 
  var level = 0;
 
- $(document).keypress(function(){
+ $(document).keypress(function myFunction(){
     if(!started){
         $("#level-title").text("Level "+level); 
         nextSequence();
