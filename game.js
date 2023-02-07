@@ -16,6 +16,7 @@
     }
 
  });
+ $(document).ontouchstart("myFunction()");
 
 
  
